@@ -1,0 +1,7 @@
+runtime: go
+env: flex
+api_version: 1
+
+skip_files:
+- README.md
+

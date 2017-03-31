@@ -1,0 +1,541 @@
+{
+ "items": [
+  {
+   "id": "MbW3_eSDGl4C",
+   "volumeInfo": {
+    "title": "Interview with the Vampire",
+    "pageCount": 352,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "TBdgQAn-dIYC",
+   "volumeInfo": {
+    "title": "Merrick",
+    "pageCount": 320,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "ueQWtn4hSjkC",
+   "volumeInfo": {
+    "title": "Violin",
+    "pageCount": 384,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "OXwoAwAAQBAJ",
+   "volumeInfo": {
+    "title": "Prince Lestat",
+    "subtitle": "The Vampire Chronicles",
+    "pageCount": 464,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "afYQRCo71H8C",
+   "volumeInfo": {
+    "title": "Servant of the Bones",
+    "pageCount": 432,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "rTC5DAAAQBAJ",
+   "volumeInfo": {
+    "title": "Prince Lestat and the Realms of Atlantis",
+    "subtitle": "The Vampire Chronicles",
+    "pageCount": 480,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "vvLvUuAVvdIC",
+   "volumeInfo": {
+    "title": "The Wolf Gift",
+    "subtitle": "The Wolf Gift Chronicles (1)",
+    "pageCount": 400,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "4H1dL3hqJNYC",
+   "volumeInfo": {
+    "title": "Pandora",
+    "pageCount": 368,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "fbSkSF4aGAgC",
+   "volumeInfo": {
+    "title": "Memnoch the Devil",
+    "pageCount": 448,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "C0-V1Yak-9YC",
+   "volumeInfo": {
+    "title": "Feast of All Saints",
+    "pageCount": 576,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "FiECcd1-Nz8C",
+   "volumeInfo": {
+    "title": "Called Out of Darkness",
+    "subtitle": "A Spiritual Confession",
+    "pageCount": 256,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "uxd4r90RMsgC",
+   "volumeInfo": {
+    "title": "Cry to Heaven",
+    "pageCount": 576,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "hFT7yV3zAeUC",
+   "volumeInfo": {
+    "title": "The Witching Hour",
+    "pageCount": 1056,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "ToToUovR4bsC",
+   "volumeInfo": {
+    "title": "Blood Canticle",
+    "subtitle": "The Vampire Chronicles",
+    "pageCount": 320,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "nDN1WF2RauoC",
+   "volumeInfo": {
+    "title": "Lasher",
+    "pageCount": 640,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "JYfWSuRO83sC",
+   "volumeInfo": {
+    "title": "The Gothic World of Anne Rice",
+    "pageCount": 261,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "-xXaKrrBY40C",
+   "volumeInfo": {
+    "title": "The Queen of the Damned",
+    "pageCount": 464,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "xd-W59uNekMC",
+   "volumeInfo": {
+    "title": "The Vampire Armand",
+    "pageCount": 480,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "j-B-z19WFl8C",
+   "volumeInfo": {
+    "title": "Blackwood Farm",
+    "subtitle": "The Vampire Chronicles",
+    "pageCount": 544,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "4Ley0jjlZ-4C",
+   "volumeInfo": {
+    "title": "The Vampire Chronicles Collection",
+    "subtitle": "Interview with the Vampire, The Vampire Lestat, The Queen of the Damned",
+    "pageCount": 1280,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "z7U23fBeBRAC",
+   "volumeInfo": {
+    "title": "Blood And Gold",
+    "subtitle": "The Vampire Chronicles 8",
+    "pageCount": 752,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "BVhgeyc24kAC",
+   "volumeInfo": {
+    "title": "Taltos",
+    "pageCount": 576,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "HTsIJtpLIYYC",
+   "volumeInfo": {
+    "title": "Blood and Gold",
+    "pageCount": 480,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "xqdrUwAxrKsC",
+   "volumeInfo": {
+    "title": "The Claiming of Sleeping Beauty",
+    "subtitle": "A Novel",
+    "pageCount": 272,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "P3qdDGhbnfQC",
+   "volumeInfo": {
+    "title": "The Vampire Lestat",
+    "pageCount": 496,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "zM7tFSNAiXUC",
+   "volumeInfo": {
+    "title": "Anne Rice and Sexual Politics",
+    "subtitle": "The Early Novels",
+    "pageCount": 181,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "umoj-2Ly9jkC",
+   "volumeInfo": {
+    "title": "Beauty's Release",
+    "subtitle": "A Novel",
+    "pageCount": 256,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "bRIxeBprg0kC",
+   "volumeInfo": {
+    "title": "A Checklist of Anne Rice",
+    "pageCount": 11,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "R6FCvCazRXYC",
+   "volumeInfo": {
+    "title": "Interview with the Vampire: Claudia's Story",
+    "pageCount": 224,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "9GiIB-SHonYC",
+   "volumeInfo": {
+    "title": "Anne Rice Reader",
+    "pageCount": 368,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "dz96nQxkF7wC",
+   "volumeInfo": {
+    "title": "The Complete Vampire Chronicles 12-Book Bundle",
+    "pageCount": 5392,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "6FED4fifP1UC",
+   "volumeInfo": {
+    "title": "Of Love and Evil",
+    "subtitle": "The Songs of the Seraphim, Book Two",
+    "pageCount": 192,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "TKeTE7iaevsC",
+   "volumeInfo": {
+    "title": "Vittorio, the Vampire",
+    "pageCount": 304,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "TA-oKWssqRIC",
+   "volumeInfo": {
+    "title": "Christ the Lord: Out of Egypt",
+    "subtitle": "A Novel",
+    "pageCount": 368,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "tivoCAAAQBAJ",
+   "volumeInfo": {
+    "title": "The Kindness Curriculum",
+    "subtitle": "Stop Bullying Before It Starts",
+    "pageCount": 160,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "nAQYzZBrqRUC",
+   "volumeInfo": {
+    "title": "Christ the Lord: The Road to Cana",
+    "subtitle": "Road to Cana",
+    "pageCount": 336,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "RcTiBAAAQBAJ",
+   "volumeInfo": {
+    "title": "The Wolf Gift: The Graphic Novel",
+    "pageCount": 207,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "uDoH98pXM3oC",
+   "volumeInfo": {
+    "title": "The Mummy or Ramses the Damned",
+    "pageCount": 416,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "TA-oKWssqRIC",
+   "volumeInfo": {
+    "title": "Christ the Lord: Out of Egypt",
+    "subtitle": "A Novel",
+    "pageCount": 368,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  },
+  {
+   "id": "ml4gT_z-40sC",
+   "volumeInfo": {
+    "title": "Angel Time",
+    "subtitle": "The Songs of the Seraphim, Book One",
+    "pageCount": 288,
+    "language": "en"
+   },
+   "accessInfo": {
+    "epub": {
+     "isAvailable": true
+    }
+   }
+  }
+ ]
+}

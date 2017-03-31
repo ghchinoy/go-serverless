@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bookshelf</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+  html{position:relative;min-height:100%}
+  body{margin-bottom:60px}
+  .footer{position:absolute;bottom:0;width:100%;height:60px;background-color:#f5f5f5}
+  body>.container{padding:10px 15px 0}
+  .container .text-muted{margin:20px 0}
+  .footer>.container{padding-right:15px;padding-left:15px}
+  code{font-size:80%}
+  .logo-next-reduced {
+    -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
+    position: absolute; top: 50%; display: block; height: 33px; width: 50px; margin-top: 0; margin-left: -30px;
+    }
+</style>
+</head>
+<body>
+
+<div class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="navbar-brand">Bookshelf</div>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">Authors</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  {{template "body" .Data}}
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">
+      <a href="/privacy" style="text-decoration: none; color: grey;">Privacy</a>
+      |
+      <a href="/tos" style="text-decoration: none; color: grey;">Terms</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

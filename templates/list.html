@@ -1,0 +1,12 @@
+
+<h3>Authors</h3>
+
+{{range .Authors}}
+<div class="media">
+
+    <div class="media-body"><a href="/{{.}}">{{.}}</a></div>
+
+</div>
+{{else}}
+<p>No authors found.</p>
+{{end}}
