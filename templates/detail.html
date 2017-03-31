@@ -3,6 +3,6 @@
 
 <ul>
 {{range .Books}}
-<li>{{.Title}}</li>
+<li>{{.VolumeInfo.Title}}{{if .VolumeInfo.Subtitle}}: {{.VolumeInfo.Subtitle}}{{end}} by {{.VolumeInfo.Authors}}</li>
 {{end}}
 </ul>

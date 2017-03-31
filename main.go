@@ -25,8 +25,13 @@ var (
 
 // Book holds the an item (a Volume) from the result of a Google Books query
 type Book struct {
-	ID    string `json:"id"`
-	Title string `json:"volumeInfo.title"`
+	ID         string `json:"id"`
+	VolumeInfo struct {
+		Title    string   `json:"title"`
+		Subtitle string   `json:"subtitle"`
+		Pages    int      `json:"pages"`
+		Authors  []string `json:"authors"`
+	} `json:"volumeInfo"`
 }
 
 func main() {
@@ -92,10 +97,6 @@ func showBooksByAuthorHandler(w http.ResponseWriter, r *http.Request) *apiError 
 		return apiErrorf(err, "Unable to retrieve Author Info: %v")
 	}
 
-	books = []Book{
-		Book{Title: "sample title"},
-	}
-
 	authorInfo := struct {
 		Author string
 		Books  []Book
@@ -123,7 +124,7 @@ func getAuthorBooks(author string) ([]Book, error) {
 		40,   // count
 		"US", // country
 		"en", // language
-		"items(id,accessInfo(epub/isAvailable),volumeInfo(title,subtitle,language,pageCount))", // filter fields
+		"items(id,accessInfo(epub/isAvailable),volumeInfo(title,subtitle,language,pageCount,authors))", // filter fields
 	)
 	log.Println(uri)
 
