@@ -92,3 +92,64 @@ $ go run main.go template.go
 127.0.0.1 - - [30/Mar/2017:15:55:24 -0600] "GET / HTTP/1.1" 200 1584 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3056.0 Safari/537.36"
 ...
 ```
+
+![](images/list.png)
+
+
+![](images/tolkien.png)
+
+
+## Deploy
+
+
+Make sure the project has been configured for billing, visit `https://console.developers.google.com/project/go-serverless/settings` in a browser, substituting the project name `go-serverless` with your own.
+
+
+```
+$ gcloud app deploy
+You are creating an app for project [go-serverless].
+WARNING: Creating an App Engine application for a project is irreversible and the region
+cannot be changed. More information about regions is at
+https://cloud.google.com/appengine/docs/locations.
+
+Please choose the region where you want your App Engine application
+located:
+
+ [1] europe-west   (supports standard and flexible)
+ [2] us-east1      (supports standard and flexible)
+ [3] us-central    (supports standard and flexible)
+ [4] asia-northeast1 (supports standard and flexible)
+ [5] cancel
+Please enter your numeric choice:  3
+
+Creating App Engine application in project [go-serverless] and region [us-central]....done.
+You are about to deploy the following services:
+ - go-serverless/default/20170330t205543 (from [/Users/ghc/dev/go/src/github.com/ghchinoy/go-serverless/app.yaml])
+     Deploying to URL: [https://go-serverless.appspot.com]
+
+Do you want to continue (Y/n)?  Y
+
+If this is your first deployment, this may take a while...done.
+
+Beginning deployment of service [default]...
+Building and pushing image for service [default]
+Some files were skipped. Pass `--verbosity=info` to see which ones
+
+...
+
+Updating service [default]...done.
+Deployed service [default] to [https://go-serverless.appspot.com]
+
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+To view your application in the web browser run:
+  $ gcloud app browse
+```
+
+
+Deployed! 
+
+https://go-serverless.appspot.com/
+
+![](images/list-appspot.png)
