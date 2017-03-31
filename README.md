@@ -79,7 +79,9 @@ skip_files:
 ```
 
 
-Add code
+Add code, snippet of `main.go` (see source for full code)
+
+<script src="https://gist.github.com/ghchinoy/3f44d7413625e0f64cf7baf4b61ae072.js"></script>
 
 
 ## Test locally
