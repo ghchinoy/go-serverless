@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"os"
 	"sort"
+	"time"
 
 	"google.golang.org/appengine"
 
@@ -20,6 +21,7 @@ var (
 	// html templates
 	booklistTmpl     = parseTemplate("list.html")
 	authordetailTmpl = parseTemplate("detail.html")
+	tosPrivacy       = parseTemplate("tos_privacy.html")
 	// Google Books API uri format
 	googlebooksformat = "https://www.googleapis.com/books/v1/volumes?q=%s&startIndex=%v&maxResults=%v&country=%s&langRestrict=%s&download=epub&printType=books&showPreorders=false&fields=%s"
 )
@@ -53,7 +55,10 @@ func main() {
 
 	r := mux.NewRouter()
 	r.Path("/").Methods("GET").Handler(apiHandler(listBooksHandler))
-	r.Path("/{author}").Methods("GET").Handler(apiHandler(showBooksByAuthorHandler))
+	r.Path("/author/{author}").Methods("GET").Handler(apiHandler(showBooksByAuthorHandler))
+
+	r.Path("/tos").Methods("GET").Handler(apiHandler(tosPrivacyHandler))
+	r.Path("/privacy").Methods("GET").Handler(apiHandler(tosPrivacyHandler))
 
 	// AppEngine / Compute Engine Health check endpoint
 	r.Methods("GET").Path("/_ah/health").HandlerFunc(
@@ -106,6 +111,7 @@ func showBooksByAuthorHandler(w http.ResponseWriter, r *http.Request) *apiError 
 	// grab request variables
 	vars := mux.Vars(r)
 
+	timeStart := time.Now()
 	books, err := getAuthorBooks(vars["author"])
 	if err != nil {
 		return apiErrorf(err, "Unable to retrieve Author Info: %v")
@@ -116,9 +122,11 @@ func showBooksByAuthorHandler(w http.ResponseWriter, r *http.Request) *apiError 
 	authorInfo := struct {
 		Author string
 		Books  Books
+		Time   string
 	}{
 		Author: vars["author"],
 		Books:  books,
+		Time:   fmt.Sprintf("%.2f s", time.Since(timeStart).Seconds()),
 	}
 
 	return authordetailTmpl.Execute(w, r, authorInfo)
@@ -160,7 +168,10 @@ func getAuthorBooks(author string) (Books, error) {
 	books = googlebooksresponse.Items
 
 	return books, nil
+}
 
+func tosPrivacyHandler(w http.ResponseWriter, r *http.Request) *apiError {
+	return tosPrivacy.Execute(w, r, nil)
 }
 
 // http://blog.golang.org/error-handling-and-go
