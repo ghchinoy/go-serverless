@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"sort"
 
 	"google.golang.org/appengine"
 
@@ -29,9 +30,22 @@ type Book struct {
 	VolumeInfo struct {
 		Title    string   `json:"title"`
 		Subtitle string   `json:"subtitle"`
-		Pages    int      `json:"pages"`
+		Pages    int      `json:"pageCount"`
 		Authors  []string `json:"authors"`
 	} `json:"volumeInfo"`
+}
+
+// Books is a collection container that implements sort interface for sorting by pages
+type Books []Book
+
+func (slice Books) Len() int {
+	return len(slice)
+}
+func (slice Books) Less(i, j int) bool {
+	return slice[i].VolumeInfo.Pages > slice[j].VolumeInfo.Pages
+}
+func (slice Books) Swap(i, j int) {
+	slice[i], slice[j] = slice[j], slice[i]
 }
 
 func main() {
@@ -97,9 +111,11 @@ func showBooksByAuthorHandler(w http.ResponseWriter, r *http.Request) *apiError 
 		return apiErrorf(err, "Unable to retrieve Author Info: %v")
 	}
 
+	sort.Sort(books)
+
 	authorInfo := struct {
 		Author string
-		Books  []Book
+		Books  Books
 	}{
 		Author: vars["author"],
 		Books:  books,
@@ -109,7 +125,7 @@ func showBooksByAuthorHandler(w http.ResponseWriter, r *http.Request) *apiError 
 }
 
 // getAuthorBooks uses the Google Books API to retrieve books by an author
-func getAuthorBooks(author string) ([]Book, error) {
+func getAuthorBooks(author string) (Books, error) {
 
 	var books []Book
 
