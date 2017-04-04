@@ -5,3 +5,10 @@ api_version: 1
 skip_files:
 - README.md
 
+resources:
+  cpu: 2
+  memory_gb: 1.4
+
+manual_scaling:
+  instances: 1
+
