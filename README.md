@@ -44,7 +44,6 @@ $ gcloud config set core/project go-serverless
 Updated property [core/project].
 derby:go-serverless ghc$ gcloud config list
 [compute]
-region = us-central1
 zone = us-central1-c
 [core]
 account = ghchinoy@gmail.com
